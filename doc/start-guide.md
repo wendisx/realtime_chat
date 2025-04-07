@@ -13,6 +13,7 @@ on **Linux**:
 `./mvnw spring-boot:run`
 
 on **Windows**:
+
 `./mvnw.cmd spring-boot:run`
 
 等待构建完成即可
