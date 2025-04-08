@@ -35,7 +35,7 @@ import com.linghang.realtime_chat.common.Response;
     public ResponseEntity<Response<Object>> handleResourceNotFoundException(NotFoundException e) {
         return ResponseEntity
                 .status(HttpStatus.NOT_FOUND)
-                .body(Response.error(""));
+                .body(Response.error(e.getMessage()));
     }
 
     // ...自定义异常 200
